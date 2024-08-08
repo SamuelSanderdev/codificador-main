@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body >  
+    <header class="header">
+        <img class="logo-alura" src="./assets/Vector.png" alt="logo alura">
+        <h2></h2>
+    </header> 
+        <main class="container" >
+        
+            <section class="container__left">
+                <div class="container__left__textArea"> 
+                    <textarea  class="container__left__textArea__input" id="input-text" placeholder="       Digite o texto" ></textarea>
+                </div>
+                <div class="container__left__validation">
+                    <p class="ouputtesste" id="validation-message" ></p>
+                </div>
+                <div class="container__left__buttons">
+                    <button onclick="updateResultText();" class="container__left__buttons__decorate" id="encrypt-btn">Criptografar</button>
+                    <button onclick="updateResultText();" class="container__left__buttons__decorate" id="decrypt-btn">Descriptografar</button>
+                    <button onclick="reloadPage();" class="container__left__buttons__decorate" id="clear-btn">Reload</button>
+                </div>    
+            </section>
+            <section class="container__right">
+                <div class="container__right__result" id="result">
+                    <div class="container__right__result__output">
+                        <p class="resultText" id="result-text"></p> 
+                    </div>
+                    <img class="container__right__result__img" id="image-container-right" src="./assets/Vector3.png" alt="image-boy">
+                    <div class="container__right__result_mensage" id="inf-container-right" >
+                        <h3 class="container__right__result_h3" id="nothing-message">    Nenhuma mensagem encontrada.</h3>
+                        <p class="container__right__result_p" id="text-preference">Digite um texto que você deseja
+                            Criptografar ou Descriptografar.</p>
+                    </div>
+                    <button class="container__right__buttons" id="copy-btn">Copiar</button>
+                </div>     
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido por Samuel Sander - 2024</p>
+            <div class="container__footer">
+                <ul class="footer__link">
+                    <li class="footer__link__redes">
+                        <img class="footer__image" src="./assets/github.png" alt="logo-github">
+                        <a href="https://github.com/SamuelSanderdev" target="_blank">Github</a>
+                    </li>
+                    <li class="footer__link__redes">
+                        <img class="footer__image" src="./assets/linkedin.png" alt="logo-linkedin">
+                        <a href="https://www.linkedin.com/samuel-sander-">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </footer>
+        <script src="./js/script.js"></script>
+</body>
+</html>
