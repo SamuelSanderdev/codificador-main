@@ -41,7 +41,6 @@ p{
 }
 
 
-
 body {
     box-sizing: border-box;
     flex-direction: column;
@@ -86,7 +85,7 @@ body {
     font-weight: 400;
     color: var(--color-buttons);
     font-size: 24px;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .container__left__textArea__input::placeholder {
@@ -123,12 +122,6 @@ button:hover {
     color: var(--color-fundo-buttons);
 }
 
-.container__right {
-    display: flex;
-    flex-direction: column; 
-
-}
-
 .container__right__result{
     display: flex;
     width: 400px;
@@ -141,6 +134,8 @@ button:hover {
     flex-direction: column;
     gap: 32px;
     background-color: var(--text-titulo); 
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 
 .container__right__result__output {
@@ -232,6 +227,10 @@ footer  {
     .container__left__buttons{
         gap: 10px;
     }
+
+    .container__right__result {
+        height: auto;
+    }
 }
 
 @media(max-width: 375px) {
@@ -266,6 +265,7 @@ footer  {
         margin-top: 5%;
     }
     .container__right__result{
+        margin: 5%;
         width: auto;
         height: auto;
     }
@@ -273,10 +273,7 @@ footer  {
         width: 0;
     }
 
-    .container__right {
-        justify-content: center;
-        padding: 20px;
-    }
+
     .container__footer{
         align-items: center;
     }

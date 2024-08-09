@@ -5,7 +5,6 @@ const decryptBtn = document.getElementById('decrypt-btn');
 const copyBtn = document.getElementById('copy-btn');
 const validationMessage = document.getElementById('validation-message');
 
-
 function encryptText(text) {
     return text.replace(/e/g, 'enter')
                .replace(/i/g, 'imes')
@@ -13,7 +12,6 @@ function encryptText(text) {
                .replace(/o/g, 'ober')
                .replace(/u/g, 'ufat');
 }
-
 
 function decryptText(text) {
     return text.replace(/enter/g, 'e')
@@ -81,7 +79,6 @@ copyBtn.addEventListener('click', () => {
         copyToClipboard(text);
     }
 });
-
 
 function updateResultText() {
     const inputText = document.getElementById("input-text").value;
