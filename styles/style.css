@@ -27,7 +27,7 @@ a {
     font-family: var(--font-primary);
 }
 h2 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:var(--font-secodary);
     font-weight: 800;
     font-size: 2rem;
     color:var(--color-buttons) ;
@@ -48,19 +48,27 @@ body {
     background-color:var(--color-background);   
 }
 
+.img-logo-a {
+    width: 05%;
 
+}
 
+header{
+    display: flex;
+    gap: 30%;
+    align-items: center;
+}
+.header__titulo {
+    flex-grow: 0;
+}
 .logo-alura{
-    width: 03%;
+
     margin-left: 30px;
     margin-bottom: 10px;
     padding-top: 30px;
 }
 
-.img-logo-a {
-    width: 05%;
 
-}
 
 .container {
     display: flex;
@@ -205,6 +213,10 @@ footer  {
 }
 
 @media (max-width: 768px){
+    header{
+        gap: 20%;
+
+    }
     .container {
         flex-direction: column;
         align-items: center;
@@ -244,7 +256,9 @@ footer  {
 }
 
 @media(max-width: 480px) {
-
+    header{
+        gap: 10%;
+    }
     .container{
         justify-content: center;
         align-items: center;
