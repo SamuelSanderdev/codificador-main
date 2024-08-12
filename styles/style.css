@@ -65,7 +65,7 @@ body {
     display: flex;
     background-color:var(--ct-secondary);   
     gap: 280px;
-    
+    padding: 3%;
 }
 
 .container__left {
