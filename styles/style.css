@@ -134,6 +134,7 @@ button:hover {
 .container__right {
     display: flex;
     align-items: center;
+    padding: 15%
 }
 .container__right__result{
     display: flex;
