@@ -7,14 +7,15 @@
 </ul>
 
 # Índice
+
 <ul>
-<li><a href=""> Visão Geral</a> </li>
-<li><a href=""> Estrutura de Arquivos</a> </li>
-<li><a href=""> HTML (index.html)</a> </li>
-<li><a href=""> CSS (style.css)</a> </li>
-<li><a href=""> JavaScript (script.js)</a> </li>
-<li><a href=""> Contribuição</a> </li>
-<li><a src=".licenca"> Licença</a> </li>
+<li>Visão Geral</li>
+<li>Estrutura de Arquivos</li>
+<li>HTML (index.html)</li>
+<li>CSS (style.css)</li>
+<li>JavaScript (script.js)</li>
+<li>Contribuição</li>
+<li>Licença</li>
 </ul>
 
 # Visão Geral
