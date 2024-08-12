@@ -61,7 +61,7 @@ O arquivo style.css define a aparência e o layout da página. A seguir estão a
 
 <ul>
 <li>Estilo Global: Reseta margens e preenchimentos, define fontes padrão e cores através de variáveis CSS.</li>
-<li>Layout Responsivo: Usa @media queries para ajustar o layout em diferentes tamanhos de tela (e.g., 768px e 375px).</li>
+<li>Layout Responsivo: Usa @media queries para ajustar o layout em diferentes tamanhos de tela (e.g., 768px e 480px).</li>
 <li>Container Principal: Define a disposição flexível das seções esquerda e direita.</li>
 <li>Botões: Estilos personalizados para os botões, incluindo efeitos de hover.</li>
 </ul>
