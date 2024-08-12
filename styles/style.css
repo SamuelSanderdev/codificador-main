@@ -73,14 +73,15 @@ header{
 .container {
     display: flex;
     background-color:var(--ct-secondary);  
-    gap:25%;
-    padding: 3%;
+    gap:10%;
+    padding: 5%;
 }
 
 .container__left {
     display: flex ;
     flex-direction: column;   
     justify-content: center;
+    padding:10%;
 
 }
 
@@ -134,7 +135,7 @@ button:hover {
 .container__right {
     display: flex;
     align-items: center;
-    padding: 15%
+    padding: 10%
 }
 .container__right__result{
     display: flex;
